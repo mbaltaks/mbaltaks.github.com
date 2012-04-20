@@ -1,5 +1,9 @@
 <div class="page-header">
+  {% if page.link %}
+  <h1><a href="{{ page.link }}">{{ page.title }}</a> <small>Supporting tagline</small></h1>
+  {% else %}
   <h1>{{ page.title }} <small>Supporting tagline</small></h1>
+  {% endif %}
 </div>
 
 <div class="row">
