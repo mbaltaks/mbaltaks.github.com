@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Michael Baltaks
+tagline: Matters of interest (to me)
 ---
 {% include JB/setup %}
 
@@ -44,3 +44,19 @@ This theme is still unfinished. If you'd like to be added as a contributor, [ple
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
+<div class="content">
+{% for post in site.posts limit:5 %}
+<div class="post">
+
+    <div class="post_header">
+        <h2><a href="{{ post.url | remove :'.html' }}">{{ post.title }}</a></h2>
+        <p>{{ post.date | date_to_string }}</p>
+    </div>
+
+    <div class="post_body">
+        {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
+
+</div>
