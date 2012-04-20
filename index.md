@@ -6,7 +6,7 @@ tagline: Matters of interest (to me)
 {% include JB/setup %}
 
 <div class="content">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
 <div class="post">
 
     <div class="post_header">
