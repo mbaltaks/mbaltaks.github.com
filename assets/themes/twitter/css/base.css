@@ -330,13 +330,16 @@ blockquote
 h1.title
 {
     font-size: 2em;
+    margin: 0;
+    padding: 0;
 }
 
 #description
 {
     color: #666;
-    -webkit-margin-before: 0.5em;
     border-top: 3px solid #ff9933;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -376,7 +379,6 @@ h1.title
 header
 {
 	margin-bottom: 4em;
-	line-height: 10px;
 }
 
 #sidebar
