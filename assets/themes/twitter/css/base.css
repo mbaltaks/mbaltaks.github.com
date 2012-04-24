@@ -249,6 +249,22 @@ a:hover
     background-color: #ff9933;
 }
 
+.post-content
+{
+    margin-bottom: 5em;
+}
+
+.date
+{
+    font-size: 0.7em;
+    color: #888;
+}
+
+.description
+{
+    margin: 0;
+}
+
 .post-content a
 {
 	color: #000;
@@ -290,12 +306,17 @@ a.infinitysymbol, a.infinitysymbol:visited, a.infinitysymbol:hover, a.infinitysy
 
 h1
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+h2
+{
+    font-size: 1.1em;
 }
 
 h3
 {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 0.5em;
 }
 
@@ -321,22 +342,6 @@ h1.title
 
 
 
-.post
-{
-    margin-bottom: 5em;
-}
-
-.date
-{
-    font-size: 0.7em;
-    color: #888;
-}
-
-
-.description
-{
-    margin: 0;
-}
 
 #copyright
 {
