@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: frontpage
 title: Michael Baltaks
 tagline: Matters of interest (to me)
 ---
@@ -7,6 +7,9 @@ tagline: Matters of interest (to me)
 
 <div class="content">
 {% for post in site.posts limit:10 %}
+
+
+
 <div class="post">
 
     <div class="post_header">
@@ -22,6 +25,9 @@ tagline: Matters of interest (to me)
         {{ post.content }}
     </div>
   </div>
+
+
+
 {% endfor %}
 
 </div>
