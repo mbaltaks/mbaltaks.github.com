@@ -213,6 +213,20 @@ body
     font-size: 13px;
 }
 
+/* Links */
+a, a:visited
+{
+	color: #222;
+	text-decoration: none;
+	border-bottom: 1px solid #ff9933;
+}
+
+a:hover
+{
+    color: #fff;
+    background-color: #ff9933;
+}
+
 
 /* Twitter bootstap css for the pagination */
 .pagination{height:36px;margin:18px 0;font-size: 12px;}
@@ -236,19 +250,6 @@ body
 
 
 
-/* Links */
-a, a:visited
-{
-	color: #222;
-	text-decoration: none;
-	border-bottom: 1px solid #ff9933;
-}
-
-a:hover
-{
-    color: #fff;
-    background-color: #ff9933;
-}
 
 .post-content
 {
@@ -360,11 +361,6 @@ h1.title
     margin-bottom: 1em;
 }
 
-#pagination a
-{
-    margin-right: 2em;
-    padding-right: 3em;
-}
 
 
 
