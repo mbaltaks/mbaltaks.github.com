@@ -213,6 +213,11 @@ body
     font-size: 13px;
 }
 
+table
+{
+	border: 1px solid #eee;
+}
+
 /* Links */
 a, a:visited
 {
