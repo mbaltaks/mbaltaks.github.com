@@ -38,3 +38,5 @@ Ok, I've recently come across this [Programmer Competency Matrix](http://www.ind
 <tr><td>books</td><td>Quickly getting to level 2</td></tr>
 <tr><td>blogs</td><td>I think level 3, what do you think?</td></tr>
 </table>
+
+So that's me at this point in time, and thanks to [Graham Lee](http://blog.securemacprogramming.com/2011/04/on-my-own-competency) for linking to the matrix which prompted me to do so as well.
