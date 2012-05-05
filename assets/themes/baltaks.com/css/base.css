@@ -213,7 +213,7 @@ body
     font-size: 13px;
 }
 
-table, tr
+table, tr, td
 {
 	border: 1px solid #eee;
 }
