@@ -33,10 +33,8 @@ I tend to use a graphical app for commits, because I think a visual tool is much
 
 Now you have a working branch full of changes. How do we get that back to the team? First, let's pull down everyone else's changes into the master branch:
 
-```
-git checkout master
-git pull
-```
+`git checkout master`
+`git pull`
 
 Great, now we have everyone's work, so let's add all those commits underneath our work:
 
@@ -46,10 +44,8 @@ If you get conflicts here, then we sort that out together, and in this workflow,
 
 If the rebase went ok, or once we've dealt with issues, let's merge your changes onto the master branch:
 
-```
-git checkout master
-git merge <new-branch-name>
-```
+`git checkout master`
+`git merge <new-branch-name>`
 
 Now your changes are ready to send to the server:
 
