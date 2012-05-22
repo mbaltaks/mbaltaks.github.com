@@ -29,7 +29,7 @@ So now you are in a new branch, and ready to work.
 
 I tend to use a graphical app for commits, because I think a visual tool is much better suited to staging sections of files together into a logical commit. On the Mac I often use GitX, but there are plenty to choose from.
 
-**But don't commit everything**, just select the files and lines that go together to make a logical change. No generated files, no temporary or local project settings, and remember to include new files. If you have files that you think should not be in the repo, but will keep appearing, you can make git ignore them, but first try looking in https://github.com/github/gitignore to see if this is already well known.
+**But don't commit everything**, just select the files and lines that go together to make a logical change. No generated files, no temporary or local project settings, and remember to include new files. If you have files that you think should not be in the repo, but will keep appearing, you can make git ignore them, but first try looking in [https://github.com/github/gitignore](https://github.com/github/gitignore) to see if this is already well known.
 
 Now you have a working branch full of changes. How do we get that back to the team? First, let's pull down everyone else's changes into the master branch:
 
