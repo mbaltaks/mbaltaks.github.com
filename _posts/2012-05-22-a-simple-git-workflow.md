@@ -2,7 +2,7 @@
 layout: post
 title: "A simple git workflow"
 ---
-This is the git workflow I developed for a team I lead that had not used git before, but had been using subversion at the time. The idea was not to try anything fancy, but rather to get the maximum benefit from the minimum effort in using version control. This assumes you've already got set up with a git repo.
+This is the git workflow I developed for a team I lead that had not used git before, but had been using subversion at the time. In fact originally this was using git-svn and working with a subversion repo. The idea was not to try anything fancy, but rather to get the maximum benefit from the minimum effort in using version control. This assumes you've already got set up with a git repo.
 
 ## Working
 Branches are tiny and fast and they work, so every new feature or bug fix could go in it's own branch. I tend to just have one working branch where I do everything, and then switch branches if I need to do something that would conflict.
