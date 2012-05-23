@@ -18,6 +18,9 @@ My github.com account is [mbaltaks](http://github.com/mbaltaks)
 - [Look Out Larry!](http://itunes.apple.com/au/app/look-out-larry!/id427064272?mt=8)
 - [Ten Giggly Gorillas](http://itunes.apple.com/au/app/ten-giggly-gorillas/id487182988?mt=8)
 
+## T-SQL BBEdit/TextWrangler language module
+[Project page](tsql-language-module)
+
 ## Other projects
 I've provided help to a number of projects over the years.
 
