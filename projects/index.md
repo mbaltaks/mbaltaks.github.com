@@ -20,9 +20,6 @@ My github.com account is [mbaltaks](http://github.com/mbaltaks)
 ## T-SQL BBEdit/TextWrangler language module
 [Project page](tsql-language-module)
 
-## Port of OpenBSD ftw to Mac OS X (for uade)
-[Project page](ftw)
-
 ## Other projects
 I've provided help to a number of projects over the years.
 
@@ -30,6 +27,6 @@ I've provided help to a number of projects over the years.
 - Patches for the mod_auth_ntlm_winbind part of the Samba project [enabling reverse proxy mode](http://lists.samba.org/archive/samba-technical/2007-January/051292.html), [omit domain name from username](http://lists.samba.org/archive/samba-technical/2007-April/052692.html) and [support for REMOTE_USER lookahead when reverse proxy](http://lists.samba.org/archive/samba-technical/2008-September/061428.html)
 - [ModNTLM](http://modntlm.sourceforge.net/)
 - [Myth II](http://projectmagma.net/about/)
-- [UADE](http://zakalwe.fi/uade/) [patch](/files/uade-1.02_darwin.diff)
+- [UADE](http://zakalwe.fi/uade/) [patch](/files/uade-1.02_darwin.diff) and [OpenBSD ftw](ftw) ported to Mac OS X to support it
 - [Build of QuickTime component for Ogg Vorbis support](http://doublecommand.sourceforge.net/qtoggvorbis.html)
 - [Build of RMD for Thunderbird](http://www.andrewlucking.com/archives/2007/06/rmd-145-osx-remembers/)
