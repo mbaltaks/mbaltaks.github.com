@@ -22,4 +22,4 @@ To install for TextWrangler, copy the file to
 then restart TextWrangler.
 
 ### Version History
-1.0 - 2005-06-15: Initial release.
+2005-06-15: 1.0 - Initial release.
