@@ -5,6 +5,6 @@ link: http://yglesias.thinkprogress.org/2010/03/another-reason-for-congestion-pr
 ---
 <a href=
 "http://yglesias.thinkprogress.org/2010/03/another-reason-for-congestion-pricing/">
-Matthew Yglesias » Another Reason for Congestion Pricing</a><br>
+Matthew Yglesias » Another Reason for Congestion Pricing</a>
 
 <p>Commuting is not fun. As if we didn’t already know.</p>

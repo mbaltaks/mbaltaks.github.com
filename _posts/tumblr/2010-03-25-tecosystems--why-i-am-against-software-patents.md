@@ -5,4 +5,4 @@ link: http://redmonk.com/sogrady/2010/03/19/software-patents/
 ---
 <a href=
 "http://redmonk.com/sogrady/2010/03/19/software-patents/">tecosystems
-» Why I Am Against Software Patents</a><br>
+» Why I Am Against Software Patents</a>

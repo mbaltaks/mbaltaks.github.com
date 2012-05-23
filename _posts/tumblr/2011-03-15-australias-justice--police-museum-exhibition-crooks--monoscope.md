@@ -6,6 +6,6 @@ link: http://www.monoscope.com/2011/03/australias-justice-police-museum-exhibiti
 <a href=
 "http://www.monoscope.com/2011/03/australias-justice-police-museum-exhibition-crooks/">
 Australia’s Justice &amp; Police Museum exhibition: Crooks |
-Monoscope</a><br>
+Monoscope</a>
 
 <p>I love old photos.</p>

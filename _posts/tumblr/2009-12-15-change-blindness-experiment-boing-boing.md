@@ -5,6 +5,6 @@ link: http://www.boingboing.net/2009/12/14/change-blindness-exp.html
 ---
 <a href=
 "http://www.boingboing.net/2009/12/14/change-blindness-exp.html">Change
-blindness experiment Boing Boing</a><br>
+blindness experiment Boing Boing</a>
 
 <p>I see nothing.</p>

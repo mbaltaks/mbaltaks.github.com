@@ -6,4 +6,4 @@ link: http://www.ausinnovation.org/articles/misunderstanding-the-brain-is-bad-fo
 <a href=
 "http://www.ausinnovation.org/articles/misunderstanding-the-brain-is-bad-for-business.html">
 Australian Innovation: Misunderstanding the brain is bad for
-business</a><br>
+business</a>

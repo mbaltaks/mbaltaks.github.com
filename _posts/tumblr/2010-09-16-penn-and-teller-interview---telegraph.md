@@ -5,4 +5,4 @@ link: http://www.telegraph.co.uk/culture/theatre/7881171/Penn-and-Teller-intervi
 ---
 <a href=
 "http://www.telegraph.co.uk/culture/theatre/7881171/Penn-and-Teller-interview.html">
-Penn and Teller interview - Telegraph</a><br>
+Penn and Teller interview - Telegraph</a>

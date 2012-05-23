@@ -4,7 +4,7 @@ title: Perspective
 link: http://daringfireball.net/2011/12/merry
 ---
 <a href=
-"http://daringfireball.net/2011/12/merry">Perspective</a><br>
+"http://daringfireball.net/2011/12/merry">Perspective</a>
 
 <p>John Gruber:</p>
 

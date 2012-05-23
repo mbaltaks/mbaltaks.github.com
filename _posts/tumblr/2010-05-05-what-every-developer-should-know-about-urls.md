@@ -5,4 +5,4 @@ link: http://www.skorks.com/2010/05/what-every-developer-should-know-about-urls/
 ---
 <a href=
 "http://www.skorks.com/2010/05/what-every-developer-should-know-about-urls/">
-What Every Developer Should Know About URLs</a><br>
+What Every Developer Should Know About URLs</a>

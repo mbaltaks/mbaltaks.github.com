@@ -6,4 +6,4 @@ link: http://creativity-online.com/work/new-zealand-book-council-going-west/1804
 <a href=
 "http://creativity-online.com/work/new-zealand-book-council-going-west/18044">
 New Zealand Book Council: Going West - Video - Creativity
-Online</a><br>
+Online</a>

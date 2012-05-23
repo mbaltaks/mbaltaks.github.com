@@ -5,4 +5,4 @@ link: http://www.scientificblogging.com/chatter_box/brief_history_english_langua
 ---
 <a href=
 "http://www.scientificblogging.com/chatter_box/brief_history_english_language">
-A Brief History Of The English Language</a><br>
+A Brief History Of The English Language</a>

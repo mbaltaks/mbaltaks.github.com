@@ -6,7 +6,7 @@ link: http://www.foreignpolicy.com/articles/2008/08/12/the_secret_history_of_kim
 <a href=
 "http://www.foreignpolicy.com/articles/2008/08/12/the_secret_history_of_kim_jong_il?print=yes&amp;hidecomments=yes&amp;page=full">
 The Secret History of Kim Jung Il -- written by one of his high
-school teachers</a><br>
+school teachers</a>
 
 <blockquote>
   <p>I never returned to North Korea, and I never saw my family

@@ -5,4 +5,4 @@ link: http://www.scripting.com/stories/2010/03/11/stillWaitingForMyHttpscann.htm
 ---
 <a href=
 "http://www.scripting.com/stories/2010/03/11/stillWaitingForMyHttpscann.html">
-Still waiting for my HTTP-scanner. (Scripting News)</a><br>
+Still waiting for my HTTP-scanner. (Scripting News)</a>

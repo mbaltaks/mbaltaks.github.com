@@ -5,7 +5,7 @@ link: http://m.syfy.com/inf/infomo;JSESSIONID=8054B9A7EC8A13AD0C0F.1022?site=syf
 ---
 <a href=
 "http://m.syfy.com/inf/infomo;JSESSIONID=8054B9A7EC8A13AD0C0F.1022?site=syfy&amp;view=wirestoriesdetails&amp;feed:a=stories_wire&amp;feed:c=stories_wire_channel&amp;feed:i=29.73055">
-Wire Stories Details</a><br>
+Wire Stories Details</a>
 
 <p>“It is a collaborative process, and I think what it speaks to
 more than anything else is that when you have the opportunity to

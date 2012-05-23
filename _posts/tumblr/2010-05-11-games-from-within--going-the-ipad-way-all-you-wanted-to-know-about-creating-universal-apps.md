@@ -6,4 +6,4 @@ link: http://gamesfromwithin.com/going-the-ipad-way-all-you-wanted-to-know-about
 <a href=
 "http://gamesfromwithin.com/going-the-ipad-way-all-you-wanted-to-know-about-creating-universal-apps">
 Games from Within | Going The iPad Way: All You Wanted to Know
-About Creating Universal Apps</a><br>
+About Creating Universal Apps</a>

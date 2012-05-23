@@ -7,6 +7,6 @@ title: !binary |
 link: http://www.youtube.com/watch?v=BQ9YtJC-Kd8
 ---
 <a href="http://www.youtube.com/watch?v=BQ9YtJC-Kd8">YouTube -
-[HD]自主制作アニメーション『the TV show』</a><br>
+[HD]自主制作アニメーション『the TV show』</a>
 
 <p>A captivating short animation.</p>

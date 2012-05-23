@@ -6,6 +6,6 @@ link: http://www.guardian.co.uk/commentisfree/video/2011/jul/07/david-mitchell-s
 <a href=
 "http://www.guardian.co.uk/commentisfree/video/2011/jul/07/david-mitchell-soapbox-blurry-logos-video">
 David Mitchells Soapbox: Blurry logos on TV sport - video | Comment
-is free | guardian.co.uk</a><br>
+is free | guardian.co.uk</a>
 
 <p>What is the product, and who is the customer?</p>

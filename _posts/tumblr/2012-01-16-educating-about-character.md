@@ -5,7 +5,7 @@ link: http://www.nytimes.com/2011/09/18/magazine/what-if-the-secret-to-success-i
 ---
 <a href=
 "http://www.nytimes.com/2011/09/18/magazine/what-if-the-secret-to-success-is-failure.html">
-Educating about character</a><br>
+Educating about character</a>
 
 <blockquote>
   <p>And I said: ‘Do you know what does change? You didn’t have a

@@ -6,6 +6,6 @@ link: http://www.reddit.com/r/reddit.com/comments/b87a0/i_read_a_lot_of_threads_
 <a href=
 "http://www.reddit.com/r/reddit.com/comments/b87a0/i_read_a_lot_of_threads_about_being_lonely_sad_or/">
 I read a lot of threads about being lonely, sad or unhappy in
-general. : reddit.com</a><br>
+general. : reddit.com</a>
 
 <p>Interesting advice on taking control of your own happiness.</p>

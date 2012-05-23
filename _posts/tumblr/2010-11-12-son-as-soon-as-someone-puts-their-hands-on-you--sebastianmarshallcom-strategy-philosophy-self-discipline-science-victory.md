@@ -5,6 +5,6 @@ link: http://www.sebastianmarshall.com/?p=283
 ---
 <a href="http://www.sebastianmarshall.com/?p=283">“Son, as soon as
 someone puts their hands on you…” | SebastianMarshall.com:
-Strategy, Philosophy, Self-Discipline, Science. Victory.</a><br>
+Strategy, Philosophy, Self-Discipline, Science. Victory.</a>
 
 <p>Turn the other cheek, or hit back?</p>

@@ -6,7 +6,7 @@ link: http://orderedlist.com/our-writing/blog/articles/the-psychology-of-happy-p
 <a href=
 "http://orderedlist.com/our-writing/blog/articles/the-psychology-of-happy-passwords/">
 The Psychology of Happy Passwords - Blog - Our Writing - Ordered
-List</a><br>
+List</a>
 
 <p>Oh, this is a very nice little idea, I’ll do this next password
 change.</p>

@@ -5,7 +5,7 @@ link: http://www.osnews.com/story/25469/Richard_Stallman_Was_Right_All_Along
 ---
 <a href=
 "http://www.osnews.com/story/25469/Richard_Stallman_Was_Right_All_Along">
-The rising importance of Free (as in speech) Software</a><br>
+The rising importance of Free (as in speech) Software</a>
 
 <p>Thom Holwerda:</p>
 

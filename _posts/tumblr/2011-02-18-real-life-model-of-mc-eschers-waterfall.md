@@ -5,6 +5,6 @@ link: http://laughingsquid.com/real-life-model-of-m-c-eschers-waterfall/
 ---
 <a href=
 "http://laughingsquid.com/real-life-model-of-m-c-eschers-waterfall/">
-Real Life Model of M.C. Escher’s “Waterfall”</a><br>
+Real Life Model of M.C. Escher’s “Waterfall”</a>
 
 <p>Take that, physics!</p>

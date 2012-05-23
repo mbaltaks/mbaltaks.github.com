@@ -5,4 +5,4 @@ link: http://www.macworld.com/article/151235/2010/05/apple_rolls.html?lsrc=smoke
 ---
 <a href=
 "http://www.macworld.com/article/151235/2010/05/apple_rolls.html?lsrc=smokemonster">
-This is how Apple rolls | Tablets | Macworld</a><br>
+This is how Apple rolls | Tablets | Macworld</a>

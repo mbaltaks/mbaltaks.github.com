@@ -5,6 +5,6 @@ link: http://www.boingboing.net/2011/01/09/great-animation-why.html
 ---
 <a href=
 "http://www.boingboing.net/2011/01/09/great-animation-why.html">Great
-animation: why we cant walk straight - Boing Boing</a><br>
+animation: why we cant walk straight - Boing Boing</a>
 
 <p>Humans are a mystery in many ways.</p>

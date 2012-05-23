@@ -5,6 +5,6 @@ link: http://www.pleaseshutup.com/hidden-videos/#/video/golf
 ---
 <a href=
 "http://www.pleaseshutup.com/hidden-videos/#/video/golf">CENTER OF
-PHONE ETIQUETTE</a><br>
+PHONE ETIQUETTE</a>
 
 <p>CIAO!</p>

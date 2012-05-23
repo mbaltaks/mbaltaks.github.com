@@ -6,4 +6,4 @@ link: http://mobileopportunity.blogspot.com/2010/10/whats-really-wrong-with-blac
 <a href=
 "http://mobileopportunity.blogspot.com/2010/10/whats-really-wrong-with-blackberry-and.html">
 Mobile Opportunity: Whats really wrong with BlackBerry (and what to
-do about it)</a><br>
+do about it)</a>

@@ -5,7 +5,7 @@ link: http://www.tbray.org/ongoing/When/201x/2012/01/17/Not-Piracy
 ---
 <a href=
 "http://www.tbray.org/ongoing/When/201x/2012/01/17/Not-Piracy">Not
-Piracy</a><br>
+Piracy</a>
 
 <p>Tim Bray:</p>
 

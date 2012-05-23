@@ -5,4 +5,4 @@ link: http://en.wikipedia.org/wiki/List_of_common_misconceptions
 ---
 <a href=
 "http://en.wikipedia.org/wiki/List_of_common_misconceptions">List
-of common misconceptions - Wikipedia, the free encyclopedia</a><br>
+of common misconceptions - Wikipedia, the free encyclopedia</a>

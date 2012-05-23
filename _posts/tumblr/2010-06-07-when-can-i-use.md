@@ -5,4 +5,4 @@ link: http://caniuse.com/#agents=All&eras=All&cats=HTML5&statuses=rec,pr,cr,wd,i
 ---
 <a href=
 "http://caniuse.com/#agents=All&amp;eras=All&amp;cats=HTML5&amp;statuses=rec,pr,cr,wd,ietf">
-When can I use...</a><br>
+When can I use...</a>

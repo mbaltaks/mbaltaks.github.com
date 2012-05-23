@@ -5,6 +5,6 @@ link: http://agilewarrior.wordpress.com/2010/11/06/the-agile-inception-deck/
 ---
 <a href=
 "http://agilewarrior.wordpress.com/2010/11/06/the-agile-inception-deck/">
-The Agile Inception Deck « The Agile Warrior</a><br>
+The Agile Inception Deck « The Agile Warrior</a>
 
 <p>Questions to consider at the start of a project.</p>

@@ -5,4 +5,4 @@ link: http://www.flickr.com/photos/philgyford/4505748943/
 ---
 <a href=
 "http://www.flickr.com/photos/philgyford/4505748943/">"Infographic"
-on Flickr - Photo Sharing!</a><br>
+on Flickr - Photo Sharing!</a>

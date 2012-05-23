@@ -5,7 +5,7 @@ link: http://web.archive.org/web/20060831124229/http://www.newyorker.com/archive
 ---
 <a href=
 "http://web.archive.org/web/20060831124229/http://www.newyorker.com/archive/content/articles/060619fr_archive01">
-The New Yorker: From the Archives: Content</a><br>
+The New Yorker: From the Archives: Content</a>
 
 <p>A man, blind since childhood, regains sight. Blessing or
 curse?</p>

@@ -5,6 +5,6 @@ link: http://www.panic.com/blog/2009/12/on-calendars/
 ---
 <a href="http://www.panic.com/blog/2009/12/on-calendars/">Panic
 Blog » Q: “Once in a blue moon” is a rare event. But what does
-“blue moon” really mean?</a><br>
+“blue moon” really mean?</a>
 
 <p>History of calendars.</p>

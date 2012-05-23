@@ -5,7 +5,7 @@ link: http://blogs.crikey.com.au/pollytics/2011/12/08/australian-exceptionalism/
 ---
 <a href=
 "http://blogs.crikey.com.au/pollytics/2011/12/08/australian-exceptionalism/">
-Australian Exceptionalism</a><br>
+Australian Exceptionalism</a>
 
 <blockquote>
   <p>Never before has there been a nation so completely oblivious
