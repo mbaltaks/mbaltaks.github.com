@@ -31,3 +31,5 @@ I've provided help to a number of projects over the years.
 - [ModNTLM](http://modntlm.sourceforge.net/)
 - [Myth II](http://projectmagma.net/about/)
 - [UADE](http://zakalwe.fi/uade/) [patch](/files/uade-1.02_darwin.diff)
+- [Build of QuickTime component for Ogg Vorbis support](http://doublecommand.sourceforge.net/qtoggvorbis.html)
+- [Build of RMD for Thunderbird](http://www.andrewlucking.com/archives/2007/06/rmd-145-osx-remembers/)
