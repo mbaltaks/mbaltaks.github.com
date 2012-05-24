@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Who?
-group: navigation
 ---
 {% include JB/setup %}
 
