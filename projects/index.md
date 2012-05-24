@@ -4,8 +4,6 @@ title: Projects
 ---
 {% include JB/setup %}
 
-My github.com account is [mbaltaks](http://github.com/mbaltaks)
-
 ## DoubleCommand
 [DoubleCommand](http://doublecommand.sourceforge.net) is a Mac OS X app to help tweak your keyboard to work the way you like.
 
