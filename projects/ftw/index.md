@@ -2,6 +2,7 @@
 layout: page
 title: ftw for Mac OS X (Darwin) and *BSD
 header: ftw implementation for Mac OS X (Darwin)
+description: Implementation of ftw for Mac OS X (Darwin)
 ---
 {% include JB/setup %}
 

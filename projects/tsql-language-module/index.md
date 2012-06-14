@@ -2,6 +2,7 @@
 layout: page
 title: T-SQL BBEdit/TextWrangler language module
 header: T-SQL BBEdit/TextWrangler language module
+description: T-SQL BBEdit/TextWrangler language module
 ---
 {% include JB/setup %}
 

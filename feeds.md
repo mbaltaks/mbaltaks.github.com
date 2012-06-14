@@ -3,6 +3,7 @@ layout: page
 title: Feeds
 header: Feeds
 group: navigation
+description: Feed page for the website of Michael Baltaks
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: frontpage
 title: Michael Baltaks
 tagline: Matters of interest (to me)
+description: The website of Michael Baltaks, matters of interest.
 ---
 {% include JB/setup %}
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+description: Projects
 ---
 {% include JB/setup %}
 

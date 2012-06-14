@@ -2,6 +2,7 @@
 layout: page
 title: Pages
 header: Pages
+description: List of pages for the website of Michael Baltaks
 ---
 {% include JB/setup %}
 

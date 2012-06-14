@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+description: Contact page for Michael Baltaks
 ---
 {% include JB/setup %}
 
