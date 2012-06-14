@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Motivating children to learn"
+date: 2012-05-05 00:02:00
 link: http://www.cringely.com/2012/01/hello-mr-chips/
 ---
 Robert X. Cringely finishes this piece with:

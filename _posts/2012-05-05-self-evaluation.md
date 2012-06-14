@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Self evaluation"
+date: 2012-05-05 00:01:00
 ---
 Ok, I've recently come across this [Programmer Competency Matrix](http://www.indiangeek.net/wp-content/uploads/Programmer%20competency%20matrix.htm) so I'm going to rate myself today, and it'll be interesting to come back and compare at a later date.
 
