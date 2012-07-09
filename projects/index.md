@@ -9,7 +9,7 @@ description: Projects
 [DoubleCommand](http://doublecommand.sourceforge.net) is a Mac OS X app to help tweak your keyboard to work the way you like.
 
 ## SharePoint list copy
-[SharePoint list copy](https://splistcp.sourceforge.net/) is a utility to cleanly migrate content, for when the SharePoint software upgrade (all types) inevitably fails.
+[SharePoint list copy](http://splistcp.sourceforge.net/) is a utility to cleanly migrate content, for when the SharePoint software upgrade (all types) inevitably fails.
 
 ## Interactive books for children on the iPad
 - [Lazy Larry Lizard](http://itunes.apple.com/au/app/lazy-larry-lizard/id370137977?mt=8)
