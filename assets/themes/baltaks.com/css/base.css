@@ -213,19 +213,22 @@ body
     font-size: 13px;
 }
 
-table, tr, td
+table,
+tr,
+td
 {
 	border: 1px solid #eee;
 }
 
 td
 {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 /* Links */
-a, a:visited
+a,
+a:visited
 {
 	color: #222;
 	text-decoration: none;
@@ -267,7 +270,7 @@ a:hover
 
 .date
 {
-    font-size: 0.7em;
+    font-size: .7em;
     color: #888;
 }
 
@@ -294,7 +297,8 @@ a:hover
     background-color: #ff9933;
 }
 
-a.infinitysymbol, a.infinitysymbol:visited
+a.infinitysymbol,
+a.infinitysymbol:visited
 {
 	color: #999;
 	text-decoration: none;
@@ -307,10 +311,13 @@ a.infinitysymbol:hover
     background-color: #ff9933;
 }
 
-a.infinitysymbol, a.infinitysymbol:visited, a.infinitysymbol:hover, a.infinitysymbol:focus
+a.infinitysymbol,
+a.infinitysymbol:visited,
+a.infinitysymbol:hover,
+a.infinitysymbol:focus
 {
-	margin-left: 0.5em;
-	font-size: 0.8em;
+	margin-left: .5em;
+	font-size: .8em;
 }
 
 
@@ -364,7 +371,7 @@ h1.title
 
 #copyright
 {
-    font-size: 0.7em;
+    font-size: .7em;
     color: #666;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -392,7 +399,8 @@ header
 	margin-bottom: 4em;
 }
 
-a.brand, a.brand:visited
+a.brand,
+a.brand:visited
 {
 	border: none;
 }
@@ -402,7 +410,7 @@ a.brand, a.brand:visited
     position: absolute;
 	top: 170px;
     width: 60px;
-    font-size: 0.8em;
+    font-size: .8em;
     text-align: right;
 }
 
@@ -421,7 +429,7 @@ a.brand, a.brand:visited
 #sidebar a
 {
 	text-decoration: none;
-	padding: 0.5em;
+	padding: .5em;
 	border-right: 1px solid #ff9933;
 	border-bottom: none;
 }
@@ -440,7 +448,8 @@ footer
 	margin-top: 4em;
 }
 
-header, footer
+header,
+footer
 {
     margin-left: 40px;
 }
@@ -493,7 +502,8 @@ header, footer
 	width: 80px;
 }
 
-header, footer
+header,
+footer
 {
     margin-left: 80px;
     margin-right: 40px;
