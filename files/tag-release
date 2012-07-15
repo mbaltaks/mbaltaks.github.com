@@ -1,0 +1,45 @@
+#!/bin/sh
+
+# Submit customer release script: mark a customer release from a pair of release candidate packages
+# - tag the release commit
+# - store the appstore package and debug symbols as a customer release.
+# - bump the visible version
+# - commit as visible version change (so all new builds are candidates for the next version)
+# - push
+# - upload this release to the app store.
+
+# Don't allow using unset vars (-u)
+set -o nounset
+# Exit on error (-e)
+set -o errexit
+
+mvers=$1
+if [ "$mvers" == "" ]; then
+	echo "Please supply the next marketing version"
+	exit
+fi
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ] ; do SOURCE="$(readlink "$SOURCE")"; done
+script_folder="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+repo_folder="${script_folder}/.."
+packages_folder="${repo_folder}/../packages"
+
+version=`agvtool mvers -terse1`
+buildnumber=`agvtool vers -terse`
+APPSTORE_PACKAGE_FOLDER="${packages_folder}/${version}/appstore"
+BUILD_FOLDER="${repo_folder}/../Builds/${version}"
+
+# Tag the release
+git tag -m "Release $version build $buildnumber" -a Release-${version}
+
+# Store the release
+mkdir -p "${BUILD_FOLDER}"
+cp -rp "${APPSTORE_PACKAGE_FOLDER}"/* "${BUILD_FOLDER}"
+
+# Prepare for the next release
+agvtool new-marketing-version $mvers
+git commit -a -m "Start dev cycle for version $mvers"
+
+#git push
+git push --tags

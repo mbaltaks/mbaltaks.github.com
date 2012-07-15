@@ -1,0 +1,45 @@
+#!/bin/sh
+
+# Build release pair script: build a pair of release candidate packages
+# - bump the build number
+# - commit
+# - clean and build
+# - package and sign for appstore and adhoc
+# - keep both packages and debug symbols, just for debugging test crash logs, or for later storing the final build and symbols.
+
+# Don't allow using unset vars (-u)
+set -o nounset
+# Exit on error (-e)
+set -o errexit
+
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ] ; do SOURCE="$(readlink "$SOURCE")"; done
+script_folder="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+repo_folder="${script_folder}/.."
+packages_folder="${repo_folder}/../packages"
+
+source "${script_folder}/app.config"
+
+CONFIGURATION=Release
+SDK=iphoneos
+RELEASE_BUILD_FOLDER="build/${CONFIGURATION}-${SDK}"
+
+agvtool bump -all
+version=`agvtool mvers -terse1`
+buildnumber=`agvtool vers -terse`
+git commit -a -m "Release $version build $buildnumber"
+ADHOC_PACKAGE_FOLDER="${packages_folder}/${APPLICATION_PACKAGE_NAME}/${version}/adhoc"
+APPSTORE_PACKAGE_FOLDER="${packages_folder}/${APPLICATION_PACKAGE_NAME}/${version}/appstore"
+
+xcodebuild -configuration ${CONFIGURATION} -sdk ${SDK} clean
+xcodebuild -configuration ${CONFIGURATION} -sdk ${SDK} build
+
+# AdHoc build
+mkdir -p "${ADHOC_PACKAGE_FOLDER}"
+xcrun -log -verbose -sdk ${SDK} PackageApplication -v "${RELEASE_BUILD_FOLDER}/${APPLICATION_NAME}.app" -o "${ADHOC_PACKAGE_FOLDER}/${APPLICATION_PACKAGE_NAME}.ipa" --sign "${ADHOC_CERTIFICATE_NAME}" --embed "${HOME}/Library/MobileDevice/Provisioning Profiles/${ADHOC_PROVISONING_PROFILE}.mobileprovision"
+
+# App Store build
+mkdir -p "${APPSTORE_PACKAGE_FOLDER}"
+xcrun -log -verbose  -sdk ${SDK} PackageApplication -v "${RELEASE_BUILD_FOLDER}/${APPLICATION_NAME}.app" -o "${APPSTORE_PACKAGE_FOLDER}/${APPLICATION_PACKAGE_NAME}.ipa" --sign "${APPSTORE_CERTIFICATE_NAME}" --embed "${HOME}/Library/MobileDevice/Provisioning Profiles/${APPSTORE_PROVISONING_PROFILE}.mobileprovision"
+cp -rp "${RELEASE_BUILD_FOLDER}/${APPLICATION_NAME}.app.dSYM" "${APPSTORE_PACKAGE_FOLDER}"
