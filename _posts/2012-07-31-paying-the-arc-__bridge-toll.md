@@ -11,38 +11,34 @@ But one thing that hadn't crossed my path until recently was toll free bridging 
 
 The [Transitioning to ARC Release Notes](http://developer.apple.com/library/mac/releasenotes/ObjectiveC/RN-TransitioningToARC/Introduction/Introduction.html) provide this example of equivalent code, first non ARC, then ARC:
 
-```
-- (void)logFirstNameOfPerson:(ABRecordRef)person
-{
-    NSString *name = (NSString *)ABRecordCopyValue(person, kABPersonFirstNameProperty);
-    NSLog(@"Person's first name: %@", name);
-    [name release];
-}
+	- (void)logFirstNameOfPerson:(ABRecordRef)person
+	{
+		NSString *name = (NSString *)ABRecordCopyValue(person, kABPersonFirstNameProperty);
+		NSLog(@"Person's first name: %@", name);
+		[name release];
+	}
 
-- (void)logFirstNameOfPerson:(ABRecordRef)person
-{
-    NSString *name = (NSString *)CFBridgingRelease(ABRecordCopyValue(person, kABPersonFirstNameProperty));
-    NSLog(@"Person's first name: %@", name);
-}
-```
+	- (void)logFirstNameOfPerson:(ABRecordRef)person
+	{
+		NSString *name = (NSString *)CFBridgingRelease(ABRecordCopyValue(person, kABPersonFirstNameProperty));
+		NSLog(@"Person's first name: %@", name);
+	}
 
 This is helpful to see one example of how to start using ARC, but when migrating code the compiler actually prompts you to fill in with `__bridge` style cast specifiers, and that seems to be the style that's used a lot. So I had to understand how these differed, and I've come up with two more equivalent bits of ARC code that helped me understand:
 
-```
-- (void)logFirstNameOfPerson:(ABRecordRef)person
-{
-    NSString *name = (__bridge_transfer NSString *)ABRecordCopyValue(person, kABPersonFirstNameProperty);
-    NSLog(@"Person's first name: %@", name);
-}
+	- (void)logFirstNameOfPerson:(ABRecordRef)person
+	{
+		NSString *name = (__bridge_transfer NSString *)ABRecordCopyValue(person, kABPersonFirstNameProperty);
+		NSLog(@"Person's first name: %@", name);
+	}
 
-- (void)logFirstNameOfPerson:(ABRecordRef)person
-{
-    CFStringRef nameRef = ABRecordCopyValue(person, kABPersonFirstNameProperty);
-    NSString *name = (__bridge NSString *)nameRef;
-    NSLog(@"Person's first name: %@", name);
-    CFRelease(nameRef); // balance the *Copy*()
-}
-```
+	- (void)logFirstNameOfPerson:(ABRecordRef)person
+	{
+		CFStringRef nameRef = ABRecordCopyValue(person, kABPersonFirstNameProperty);
+		NSString *name = (__bridge NSString *)nameRef;
+		NSLog(@"Person's first name: %@", name);
+		CFRelease(nameRef); // balance the *Copy*()
+	}
 
 There are some things to consider:
 
