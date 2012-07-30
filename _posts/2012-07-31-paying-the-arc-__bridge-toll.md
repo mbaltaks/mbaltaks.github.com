@@ -42,7 +42,7 @@ This is helpful to see one example of how to start using ARC, but when migrating
 
 There are some things to consider:
 
-- You can't use casts unless there is an Objective-C type to cast to, so sometimes you simple have to use `CFRelease()` anyway.
+- You can't use casts unless there is an Objective-C type to cast to, so sometimes you simply have to use `CFRelease()` anyway.
 - You can't pass the Objective-C object out of the current scope unless you transfer ownership to ARC, using either `__bridge_transfer` or `CFBridgingRelease()`.
 
 So, in cases like this one, you actually have to choose between explicitly balancing the `*Copy*()` call with a `*Release()`, or handing over to ARC, using one of two styles. Which of these is preferable? I have no idea. I guess some kind of community consensus will develop over time, if it hasn't already, and we'll all just do it that way.
