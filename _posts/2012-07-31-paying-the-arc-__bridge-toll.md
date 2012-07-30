@@ -5,7 +5,7 @@ date: 2012-07-31 03:35:50
 ---
 After years spent writing Objective-C code and getting completely comfortable with balancing every `alloc`, `retain` and `copy` with a `release` or `autorelease`, [ARC](http://developer.apple.com/documentation/Cocoa/Conceptual/MemoryMgmt/) messed with my brain a bit when I first encountered it. At first I ignored it, because it's optional, but when I discovered that in general it produces faster code, I started reading up on, and then using ARC.
 
-After a while I've gotten comfortable with no longer thinking about object ownership in Objective-C when ARC is enabled. Except of course for occasions where I need to use (weak) in property declarations, mostly for delegates.
+After a while I've gotten comfortable with no longer thinking about object ownership in Objective-C when ARC is enabled. Except of course for occasions where I need to use `(weak)` in property declarations, mostly for delegates.
 
 But one thing that hadn't crossed my path until recently was toll free bridging from Core Foundation to Objective-C, and at first it was also quite confusing. Especially since ARC means that you really don't think about this anymore for Objective-C, having to think again for CF is a bit of a jolt.
 
