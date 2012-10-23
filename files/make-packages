@@ -29,8 +29,8 @@ agvtool bump -all
 version=`agvtool mvers -terse1`
 buildnumber=`agvtool vers -terse`
 git commit -a -m "Release $version build $buildnumber"
-ADHOC_PACKAGE_FOLDER="${packages_folder}/${APPLICATION_PACKAGE_NAME}/${version}/adhoc"
-APPSTORE_PACKAGE_FOLDER="${packages_folder}/${APPLICATION_PACKAGE_NAME}/${version}/appstore"
+ADHOC_PACKAGE_FOLDER="${packages_folder}/${APPLICATION_PACKAGE_NAME}/${version}-${buildnumber}/adhoc"
+APPSTORE_PACKAGE_FOLDER="${packages_folder}/${APPLICATION_PACKAGE_NAME}/${version}-${buildnumber}/appstore"
 
 xcodebuild -configuration ${CONFIGURATION} -sdk ${SDK} clean
 xcodebuild -configuration ${CONFIGURATION} -sdk ${SDK} build
