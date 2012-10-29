@@ -21,7 +21,7 @@ fi
 
 if [ 0 = $? ]
 then
-	git rebase master working && git stash pop
+	git rebase master "${branch_name}" && git stash pop
 else
 	echo "git push failed"
 	git checkout "${branch_name}" && git stash pop
