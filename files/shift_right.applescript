@@ -1,5 +1,7 @@
 tell application "TextWrangler"
-	set w to text window 1
+	set w to window 1
+	if w is missing value then set w to disk browser window 1
+	if w is missing value then return false
 	set firstLine to startLine of selection of w
 	set lastLine to endLine of selection of w
 	shift selection of w direction right without shifting by spaces
