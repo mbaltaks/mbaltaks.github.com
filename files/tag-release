@@ -1,9 +1,10 @@
 #!/bin/sh
+# Created by Michael Baltaks
 
 # Submit customer release script: mark a customer release from a pair of release candidate packages
 # - tag the release commit
 # - bump the visible version
-# - commit as visible version change (so all new builds are candidates for the next version)
+# - commit the visible version change (so all new builds are candidates for the next version)
 # - push tags
 
 # Don't allow using unset vars (-u)

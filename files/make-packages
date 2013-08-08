@@ -1,4 +1,5 @@
 #!/bin/sh
+# Created by Michael Baltaks
 
 # Build release pair script: build a pair of release candidate packages
 # - bump the build number

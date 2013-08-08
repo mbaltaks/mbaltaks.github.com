@@ -1,11 +1,14 @@
 #!/bin/sh
+# Created by Michael Baltaks
+
+# Resign an ipa package
+# Useful for Apple Enterprise In-House apps, where you need to re-sign an
+# app every time the certificate expires.
 
 # Don't allow using unset vars (-u)
 set -o nounset
 # Exit on error (-e)
 set -o errexit
-
-# Resign an ipa package
 
 if [ $# -lt 3 ]; then
 	echo "usage: $0 original.ipa provisioning_profile resigned.ipa" >&2
