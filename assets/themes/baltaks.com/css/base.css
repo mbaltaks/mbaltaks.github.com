@@ -212,6 +212,11 @@ body
     font-family: Georgia, "Bitstream Vera Serif", serif;
     font-size: 18px;
 }
+pre,
+code
+{
+	font-size: 14px;
+}
 
 table,
 tr,
