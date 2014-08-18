@@ -15,8 +15,10 @@ So I created the database, and updated the DATABASE_URL environment variable in 
 The procedure for migrating the data was:
 
 ```
-pg_dump -Fc "postgres://sentryadmin:password@sentrydb.random.us-west-2.rds.amazonaws.com:5432/sentrydb?sslmode=require" > sentry.dump
+pg_dump -Fc "postgres://sentryadmin:password@sentrydb.random.us-west-2.rds.amazonaws.com:5432/sentrydb?sslmode=verify-full" > sentry.dump
 pg_restore --host=sentrydb.random.us-east-1.rds.amazonaws.com --username=sentryadmin --dbname=sentrydb sentry.dump
 ```
 
 We are using the Cocoapod "Raven" in our iOS projects to log directly from iOS devices to our sentry server, so we can easily see what's happening with the iOS apps we've made. It's really handy to be able to watch the iOS apps remotely.
+
+**Update 18th August 2014:** I've just changed the `sslmode` to `verify-full` from `required` now that AWS RDS supports certificate verification, as per the [AWS Postgres docs](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL). I'm also not sure that the `pg_restore` command above uses SSL, so you should use a temporary password for that restore, and immediately change the password afterwards, then ensure you set the Heroku DATABASE_URL with the verify-full option as well.
