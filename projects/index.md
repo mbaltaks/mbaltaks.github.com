@@ -12,9 +12,9 @@ description: Projects
 [SharePoint list copy](http://splistcp.sourceforge.net/) is a utility to cleanly migrate content, for when the SharePoint software upgrade (all types) inevitably fails.
 
 ## Interactive books for children on the iPad
-- [Lazy Larry Lizard](http://itunes.apple.com/au/app/lazy-larry-lizard/id370137977?mt=8)
-- [Look Out Larry!](http://itunes.apple.com/au/app/look-out-larry!/id427064272?mt=8)
-- [Ten Giggly Gorillas](http://itunes.apple.com/au/app/ten-giggly-gorillas/id487182988?mt=8)
+- [Lazy Larry Lizard](https://itunes.apple.com/au/app/lazy-larry-lizard-bedtime/id370137977?mt=8&uo=4&at=11lMGv)
+- [Look Out Larry!](https://itunes.apple.com/au/app/look-out-larry!-animated-story/id427064272?mt=8&uo=4&at=11lMGv)
+- [Ten Giggly Gorillas](https://itunes.apple.com/au/app/ten-giggly-gorillas-story/id487182988?mt=8&uo=4&at=11lMGv)
 
 ## T-SQL BBEdit/TextWrangler language module
 [Project page](tsql-language-module)
