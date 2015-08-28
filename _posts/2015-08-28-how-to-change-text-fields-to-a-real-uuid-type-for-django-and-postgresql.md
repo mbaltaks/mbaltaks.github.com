@@ -9,7 +9,7 @@ Things are rarely simple.
 
 If you've been storing UUID's as text in [Django](https://www.djangoproject.com) and [PostgreSQL](http://www.postgresql.org) and now want to take advantage of the dedicated UUID type of both [Django >= 1.8](https://docs.djangoproject.com/en/1.8/ref/models/fields/#uuidfield) and [Postgres >= 8.3](http://www.postgresql.org/docs/8.3/static/datatype-uuid.html) then you're wanting to migrate your fields. But the process is not as simple as just changing the type of the field in the model like it usually is.
 
-Posgres does have a way to convert text to uuid, but you have to do it manually because Django won't put that into the migration for you.
+Postgres does have a way to convert text to uuid, but you have to do it manually because Django won't put that into the migration for you.
 
 Django will most likely create a migration for you that looks something like:
 
