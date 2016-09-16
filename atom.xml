@@ -20,6 +20,7 @@ title : Feed
    <title>{{ post.title }}</title>
    {% if post.link %}
    <link rel="alternate" type="text/html" href="{{ post.link | escape }}"/>
+   <link rel="related" type="text/html" href="{{ site.production_url }}{{ post.url | remove :'.html' }}"/>
    {% else %}
    <link rel="alternate" type="text/html" href="{{ site.production_url }}{{ post.url | remove :'.html' }}"/>
    {% endif %}
