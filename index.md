@@ -23,3 +23,5 @@ description: The website of Michael Baltaks, matters of interest.
 </div>
 
 {% endfor %}
+
+<a href="/archive">More posts</a>
