@@ -15,7 +15,7 @@ description: The website of Michael Baltaks, matters of interest.
 	<h1><a href="{{ post.url | remove :'.html' }}">{{ post.title }}</a></h1>
 	{% endif %}
 
-	<div class="date"><span>{{ post.date | date_to_long_string }}</span></div>
+	<div class="date"><span class="post-date">{{ post.date | date_to_long_string }}</span></div>
 
 	<div class="description">
 		{{ post.content }}

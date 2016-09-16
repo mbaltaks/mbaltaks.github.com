@@ -2,6 +2,7 @@
 layout: page
 title: Who?
 description: Information about Michael Baltaks
+sidebar: true
 ---
 {% include JB/setup %}
 

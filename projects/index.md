@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 description: Projects
+sidebar: true
 ---
 {% include JB/setup %}
 

@@ -71,7 +71,7 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a {
+.sidebar a, .sidebar a:visited {
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  /*font-family: "Abril Fatface", serif;*/
   font-size: 3.25rem;
 }
 
@@ -194,6 +194,63 @@ a.sidebar-nav-item:focus {
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
 }
+
+
+
+/* Michael Baltaks Orange */
+.theme-base-99 .sidebar {
+  background-color: #c60;
+}
+.theme-base-99 .content a, a:visited
+{
+    border-bottom: 1px solid #ff9933;
+    color: #222;
+}
+.theme-base-99 .content a:hover
+{
+    background-color: #ff9933;
+    text-decoration: none;
+    color: white;
+}
+.theme-base-99 .related-posts li, h3
+{
+    font-size: 0.9em;
+}
+.theme-base-99 .related-posts li a:hover
+{
+  color: white;
+}
+.theme-base-99 a.infinitysymbol,
+.theme-base-99 a.infinitysymbol:visited
+{
+	color: #999;
+	text-decoration: none;
+	border: none;
+}
+.theme-base-99 a.infinitysymbol:hover
+{
+    color: white;
+    background-color: #ff9933;
+}
+.theme-base-99 a.infinitysymbol,
+.theme-base-99 a.infinitysymbol:visited,
+.theme-base-99 a.infinitysymbol:hover,
+.theme-base-99 a.infinitysymbol:focus
+{
+	margin-left: .1em;
+	font-size: .8em;
+}
+.theme-base-99 .post-content
+{
+    margin-bottom: 5em;
+}
+.theme-base-99 .post-date
+{
+    font-size: 0.8em;
+    color: #888;
+}
+
+
 
 /* Yellow */
 .theme-base-0a .sidebar {
