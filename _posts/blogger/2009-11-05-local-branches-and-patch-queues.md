@@ -4,7 +4,6 @@ title: Local branches and patch queues
 date: 2009-11-05
 comments: false
 ---
-
 A colleague just showed me stacked git, which I understand is similar to patch queues in mercurial. At first I was struggling to understand why this was even created, but then I think the answer became clear.
 
 It seems to me that patch queues are like having just one local git branch, that always rebases against the original branch. Or coming from the other way, if you've only used patch queues, git provides an arbitrary number of named "patch queues" that you can merge between, which naturally provides more flexibility and power.
