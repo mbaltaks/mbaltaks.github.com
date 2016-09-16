@@ -1,10 +1,6 @@
---- 
+---
 layout: post
-title: "Quitting the Paint Factory by Mark Slouka \xC2\xAB adamantine"
+title: "Quitting the Paint Factory by Mark Slouka « adamantine"
 link: http://adamantine.wordpress.com/texts/quitting-the-paint-factory-by-mark-slouka/
 ---
-<a href=
-"http://adamantine.wordpress.com/texts/quitting-the-paint-factory-by-mark-slouka/">
-Quitting the Paint Factory by Mark Slouka « adamantine</a>
-
-<p>What is the cost of perpetual busyness?</p>
+What is the cost of perpetual busyness?

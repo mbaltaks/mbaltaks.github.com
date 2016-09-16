@@ -1,7 +1,5 @@
---- 
+---
 layout: post
-title: ArticleS.UncleBob.TheThreeRulesOfTdd
+title: Uncle Bob - The Three Rules Of TDD
 link: http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
 ---
-<a href=
-"http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd">ArticleS.UncleBob.TheThreeRulesOfTdd</a>

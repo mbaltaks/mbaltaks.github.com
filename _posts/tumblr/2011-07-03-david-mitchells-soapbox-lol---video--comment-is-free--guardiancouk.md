@@ -1,11 +1,6 @@
---- 
+---
 layout: post
-title: "David Mitchell's Soapbox: LOL - video | Comment is free | guardian.co.uk"
+title: "David Mitchell's Soapbox: LOL - video"
 link: http://www.guardian.co.uk/commentisfree/video/2011/jun/02/david-mitchell-soapbox-lol
 ---
-<a href=
-"http://www.guardian.co.uk/commentisfree/video/2011/jun/02/david-mitchell-soapbox-lol">
-David Mitchells Soapbox: LOL - video | Comment is free |
-guardian.co.uk</a>
-
-<p>LOL examined.</p>
+LOL examined.
