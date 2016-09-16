@@ -12,8 +12,8 @@ In Objective-C:
 ```objc
 - (void)untestable
 {
-	SomeClass *obj = [[SomeClass alloc] init]; // make an object
-	[obj doSomeWork]; // Oh no, we've used it here, making this hard to test
+    SomeClass *obj = [[SomeClass alloc] init]; // make an object
+    [obj doSomeWork]; // Oh no, we've used it here, making this hard to test
 }
 ```
 
@@ -22,13 +22,13 @@ The simple solution to this problem is to decouple the creating from the using o
 ```objc
 - (void)callMeInProduction
 {
-	SomeClass *obj = [[SomeClass alloc] init]; // make an object
-	[self easyToTestWithSomeClass:obj]; // tell the doing code about it
+    SomeClass *obj = [[SomeClass alloc] init]; // make an object
+    [self easyToTestWithSomeClass:obj]; // tell the doing code about it
 }
 
 - (void)easyToTestWithSomeClass:(SomeClass *)obj
 {
-	[obj doSomeWork]; // in a test this can be a mock
+    [obj doSomeWork]; // in a test this can be a mock
 }
 ```
 
