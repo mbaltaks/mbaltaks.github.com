@@ -5,11 +5,11 @@ title : Feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
- <link href="{{ site.production_url }}/atom.xml" rel="self" type="application/atom+xml"/>
- <link href="{{ site.production_url }}" rel="alternate" type="text/html"/>
+ <link href="{{ site.production_url | escape }}/atom.xml" rel="self" type="application/atom+xml"/>
+ <link href="{{ site.production_url | escape }}" rel="alternate" type="text/html"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <rights>Copyright © 2004 - 2014 {{ site.author.name }}</rights>
- <id>{{ site.production_url }}/</id>
+ <id>{{ site.production_url | escape }}/</id>
  <author>
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
@@ -20,15 +20,16 @@ title : Feed
    <title>{{ post.title }}</title>
    {% if post.link %}
    <link rel="related" type="text/html" href="{{ post.link | escape }}"/>
+   {% else %}
+   <link rel="related" type="text/html" href="{{ site.production_url }}{{ post.url | escape | remove :'.html' }}"/>
    {% endif %}
-   <link rel="alternate" type="text/html" href="{{ site.production_url }}{{ post.url | remove :'.html' }}"/>
-   <link rel="self" type="text/html" href="{{ site.production_url }}{{ post.url | remove :'.html' }}"/>
+   <link rel="alternate" type="text/html" href="{{ site.production_url }}{{ post.url | escape | remove :'.html' }}"/>
    <published>{{ post.date | date_to_xmlschema }}</published>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.production_url }}{{ post.id }}</id>
+   <id>{{ site.production_url }}{{ post.id | escape }}</id>
    <author>
      <name>{{ site.author.name }}</name>
-     <uri>{{ site.production_url }}/</uri>
+     <uri>{{ site.production_url | escape }}/</uri>
    </author>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
