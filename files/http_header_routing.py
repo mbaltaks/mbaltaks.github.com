@@ -7,13 +7,17 @@
 # In your settings.py, map a value you're looking for in the Accept header
 # to a urls.py file.
 # HTTP_HEADER_ROUTING_MIDDLEWARE_URLCONF_MAP = {
-#     u'application/vnd.api-name.v1': 'app.urls_v1'
+#     'application/vnd.api-name.v1': 'app.urls_v1'
 # }
 ##
 
+from __future__ import unicode_literals
+from builtins import object
 from django.conf import settings
+from django.utils.deprecation import MiddlewareMixin
 
-class HTTPHeaderRoutingMiddleware:
+
+class HTTPHeaderRoutingMiddleware(MiddlewareMixin, object):
 
     def process_request(self, request):
         try:
@@ -21,7 +25,7 @@ class HTTPHeaderRoutingMiddleware:
                 if (request.META['HTTP_ACCEPT'].find(content_type) != -1):
                     request.urlconf = settings.HTTP_HEADER_ROUTING_MIDDLEWARE_URLCONF_MAP[content_type]
         except KeyError:
-            pass # use default urlconf (settings.ROOT_URLCONF)
+            pass  # use default urlconf (settings.ROOT_URLCONF)
 
     def process_response(self, request, response):
         return response
