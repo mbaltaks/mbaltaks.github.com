@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/mbaltaks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://baltaks.com
+  * I am mbaltaks (https://keybase.io/mbaltaks) on keybase.
+  * I have a public key with fingerprint F0CC 9119 2A13 0436 71DA  44E6 5AF9 4BBE 433B 1EE8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ee2f9c7350f63455f67acd839853fd59efcc32c09882cc086cf2da9f3d361d930a",
+      "fingerprint": "f0cc91192a13043671da44e65af94bbe433b1ee8",
+      "host": "keybase.io",
+      "key_id": "5af94bbe433b1ee8",
+      "kid": "0101ee2f9c7350f63455f67acd839853fd59efcc32c09882cc086cf2da9f3d361d930a",
+      "uid": "00b68c1910b0c8ea5428af6a5306e200",
+      "username": "mbaltaks"
+    },
+    "merkle_root": {
+      "ctime": 1507740744,
+      "hash_meta": "ced6564f34d903672e388e20695c01b654921d65a89ba8986b2fbfe35400155e",
+      "seqno": 1559834
+    },
+    "revoke": {
+      "sig_ids": [
+        "dd17218f09f05052d4e164f1699fa080e000f808708a7dcc0433ec0998e0dbb40f"
+      ]
+    },
+    "service": {
+      "hostname": "baltaks.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1507740749,
+  "expire_in": 157680000,
+  "prev": "7f5190a6d50e2c91b268273ba616995c5bfc2593de06e2ec32f8d7dac8ba277e",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMK2AnicrVNbaB1FGD5pa6uphYqc2BaNsJYobYxz2ZmdOShe+hApVhMo0ivHuSbL
+yTl7srtJjE2EBgsJNbHeQEVTSl5qVUQh9MG2lCAhmFTsBWopthF9iVLtg2JjrTob
+I4j46MOwzOz3f9/3f/PPp6uW5mpr5l5fe6BpaqytZnoi7cptv/TElj2ejHSvV9jj
+lczCx3Rok6TFUqi9ggcggMYgy1WACbAU+4RYGgilGeaMYKsJN1YpjBTgjCGlAKPK
+Ii24xRpTqDkGwmv0bFhpM3E1Diupo7VAKQ4hRwJi4GMaQC1831AiLPelND7G0uky
+V9geJVmFMydFYprCyJ25TXHB3n/g/2ffXX/RAUmZghwCCRQzgviICUsFwYAaBEAG
+TExcEWXj0GUpOlJRSrz+Rq9s4lKHKcZRlGbhqjTMIJCAIPBB4PuuQZG0F8smFa5S
+GU0J9S32NQcuFmQwY06AcqIAlJT4HEEHEYxLtxiVyEprMPEBgIQY5yMxnZUoUyCc
+Yd85iE13VDKZeBK2udgSr7DT0xoGCDILuAUEEKR9A50upJxbARgwAADLAAsAE4F2
+6biEjYuKMwO0lD6w3u7+TCzuDtUCeXZPi/0vtt+korIzVI2jNFJRh/vRnqbVQpZK
+2lvNgD1GFhcpijKsaDcjrqDbxEkYVVwPDvnvwHijZ56thrEphhmCBJQ5qyCTMd2O
+MrAEciCoJsAgN2MSUYYCLAXNeiOKSKsQ4Vib7OaMGwDLdKCFYlKgIPhngtT5FG2O
+0+VWEWlXbLz+iZO7luVqanPLb1qSPZ5c7S2r/35SP7y84sbdJ3pG7sBr6p+59MDJ
+mSM/ieCuwZ+Ph0+q2ZHvDm394KUvhy7ed+7YfO/QN8Mt90+0Pvj4H6PbBi58Mbhy
+9Zubp7v2rzwz9cv4K/kXzm/+7P1rH936+dP1ew81r3v1286Bnt1LHnlr9uNH+4by
+O55fv+q9t8OW6U8O7Hi44fvD7Vtm1+dvPtoStl5vemypurC2vC1OGjaOwzXlyduu
+nm6Yav7xnnk1cOeLmm/cdPXw5YZfo99PPfXVXL51aKxv7Ovh2em+ug2jG2bA8Du5
+i/7R5+Ir7/agwpVNb9St2DvyENl6vXFg/+3jNfnhll2vDSad26/de+PywbOTzctH
+151H+36bOZXOH/kwrF9Wt2+yMvcnapmAFw==
+=YIZP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mbaltaks
+
+==================================================================
