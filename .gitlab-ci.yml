@@ -1,5 +1,5 @@
 # requiring the environment of Ruby
-image: ruby:2.4.4
+image: ruby:2.4.3
 
 # add bundle cache to 'vendor' for speeding up builds
 cache:
