@@ -1,4 +1,3 @@
 # Viewing locally
 
-- `bundle install`
-- `bundle exec jekyll serve`
+`make console`
