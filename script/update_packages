@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# script/update_packages:
+# Update to most recent versions of packages that satisfy requirements.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+bundle update
