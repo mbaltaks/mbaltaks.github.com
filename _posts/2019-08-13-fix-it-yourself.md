@@ -3,7 +3,6 @@ layout: post
 title: "Fix it yourself"
 date: 2019-08-13 16:08:57
 ---
-
 I use Simplenote iOS every day, and recently they added a task list feature to the app, meaning you can just tap to mark an item as done. The only problem was, there was a bug where sometimes that tap would make the list scroll to the very bottom, which was really annoying for me, and I noticed I was starting to avoid using the feature because of this problem.
 
 Eventually I thought to report the problem, and only then did I find that the app is open source, which meant the time I would have taken to only report the problem, was instead spent actually fixing the problem.
