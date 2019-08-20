@@ -1,83 +1,93 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-<head>
-    <link href="https://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
     <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
 
     <title>
-        {% if page.title == "Home" %}
-        {{ site.title }} &middot; {{ site.tagline }}
-        {% else %}
-        {{ page.title }} &middot; {{ site.title }}
-        {% endif %}
+      {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+      {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+      {% endif %}
     </title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/poole.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/syntax.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/hyde.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/poole.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/syntax.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/hyde.css" />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"
+    />
 
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144"
-        href="{{ ASSET_PATH }}/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="{{ ASSET_PATH }}/favicon.ico">
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="{{ ASSET_PATH }}/apple-touch-icon-144-precomposed.png"
+    />
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/favicon.ico" />
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/atom.xml"
+    />
 
     <!-- IndieWeb -->
-    <link rel="micropub" href="https://mbaltaks-micropub.herokuapp.com/">
-    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+    <link rel="micropub" href="https://mbaltaks-micropub.herokuapp.com/" />
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
     <link href="https://github.com/mbaltaks" rel="me" />
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  </head>
 
-</head>
-
-<body class="theme-base-99">
-
+  <body class="theme-base-99">
     <div class="sidebar">
-        <div class="container sidebar-sticky">
-            <div class="sidebar-about">
-                <h1><a href="/">{{ site.title }}</a></h1>
-                <p class="lead">{{ site.description }}</p>
-            </div>
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <h1>
+            <a href="/">{{ site.title }}</a>
+          </h1>
+          <p class="lead">{{ site.description }}</p>
+        </div>
 
-            <ul class="sidebar-nav">
-                <!--<li class="sidebar-nav-item{% if page.title == " Home" %} active{% endif %}">
+        <ul class="sidebar-nav">
+          <!--<li class="sidebar-nav-item{% if page.title == " Home" %} active{% endif %}">
             <a href="/">Home</a>
             </li>-->
 
-                {% comment %}
-                The code below dynamically generates a sidebar nav of pages with
-                `layout: page` in the front-matter. See readme for usage.
-                {% endcomment %}
+          {% comment %} The code below dynamically generates a sidebar nav of
+          pages with `layout: page` in the front-matter. See readme for usage.
+          {% endcomment %} {% assign pages_list = site.pages %} {% for node in
+          pages_list %} {% if node.sidebar == true %} {% if node.layout ==
+          "page" %}
+          <li
+            class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+          >
+            <a href="{{ node.url }}">{{ node.title }}</a>
+          </li>
+          {% endif %} {% endif %} {% endfor %}
+        </ul>
 
-                {% assign pages_list = site.pages %}
-                {% for node in pages_list %}
-                {% if node.sidebar == true %}
-                {% if node.layout == "page" %}
-                <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-                    <a href="{{ node.url }}">{{ node.title }}</a>
-                </li>
-                {% endif %}
-                {% endif %}
-                {% endfor %}
-
-            </ul>
-
-            <p>Copyright &copy; 2004 - {{ site.time | date: '%Y' }} Michael Baltaks. All rights reserved.</p>
-        </div>
+        <p>
+          Copyright &copy; 2004 - {{ site.time | date: "%Y" }} Michael Baltaks.
+          All rights reserved.
+        </p>
+      </div>
     </div>
 
     <div class="content container">
-        {{ content }}
+      {{ content }}
     </div>
     {% include JB/analytics %}
-</body>
-
+  </body>
 </html>
